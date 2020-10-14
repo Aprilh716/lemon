@@ -67,8 +67,8 @@ def exec_case(filename,sheetname):
             print(f"用例{id}测试执行不通过")
             writeResult(filename=filename, sheetname=sheetname, row=id+1, column=8, result='不通过')
 #执行注册测试用例
-# exec_case('test_case_api.xlsx','register')
+exec_case('test_case_api.xlsx','register')
 # # #执行登录测试用例
 exec_case('test_case_api.xlsx','login')
 #执行充值测试用例
-exec_case('test_case_api.xlsx','recharge')
+# exec_case('test_case_api.xlsx','recharge')
